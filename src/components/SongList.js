@@ -29,7 +29,7 @@ const SongList = () => {
                 })}
             </ul>
             <AddNewSong addSongs={addSong }/> 
-            <button onClick={() => setAdd(add+1)}>Add new song: {add}</button>
+            
         </div>
      );
 }
